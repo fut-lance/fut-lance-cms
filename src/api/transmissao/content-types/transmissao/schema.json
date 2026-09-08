@@ -10,7 +10,7 @@
     "data_hora": { "type": "datetime", "required": true },
     "link_m3u": { "type": "string" },
     "competicao": { "type": "string", "required": true },
-    "status": { "type": "enumeration", "enum": ["agendado", "ao_vivo", "encerrado"], "default": "agendado" },
+    "status_jogo": { "type": "enumeration", "enum": ["agendado", "ao_vivo", "encerrado"], "default": "agendado" },
     "thumbnail": { "type": "media", "multiple": false, "allowedTypes": ["images"] }
   }
 }

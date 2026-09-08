@@ -9,6 +9,7 @@
     "resumo": { "type": "text", "maxLength": 500 },
     "conteudo": { "type": "richtext" },
     "imagem_capa": { "type": "media", "multiple": false, "allowedTypes": ["images"] },
+    "imagem_url": { "type": "string" },
     "video_url": { "type": "string" },
     "data_publicacao": { "type": "date", "required": true },
     "autor": { "type": "string", "default": "FUT LANCE" },

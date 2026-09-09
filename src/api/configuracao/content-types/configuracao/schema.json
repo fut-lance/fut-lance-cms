@@ -1,0 +1,19 @@
+﻿{
+  "kind": "singleType",
+  "collectionName": "configuracaos",
+  "info": {
+    "singularName": "configuracao",
+    "pluralName": "configuracaos",
+    "displayName": "Configuracao"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "transmissoes_ativas": {
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

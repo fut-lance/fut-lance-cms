@@ -8,7 +8,6 @@ module.exports = {
       handler: 'configuracao.find',
       config: {
         auth: false,
-        policies: [],
       },
     },
     {
@@ -17,7 +16,6 @@ module.exports = {
       handler: 'configuracao.update',
       config: {
         auth: false,
-        policies: [],
       },
     },
   ],
